@@ -1,5 +1,6 @@
 import os
 
+
 class Loader:
     def __init__(self):
         self.folder_path = "files"
@@ -47,6 +48,6 @@ def main():
     population_change = loader.process_population_data_change(population_data)
     print(population_change)
 
+
 if __name__ == "__main__":
     main()
-
