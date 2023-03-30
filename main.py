@@ -40,13 +40,20 @@ class Loader:
 
         return population_change
 
+    def show_data(self, data):
+        for country, values in data.items():
+            print(country)
+            for year, population in values:
+                print(f"Year: {year}, Population change: {population}")
+            print()
+
 
 def main():
     loader = Loader()
     filename = 'file.txt'
     population_data = loader.read_population_data(filename)
     population_change = loader.process_population_data_change(population_data)
-    print(population_change)
+    loader.show_data(population_change)
 
 
 if __name__ == "__main__":
