@@ -1,0 +1,6 @@
+Ukraine, 2020, 30000
+Ukraine, 2021, 40000
+Ukraine, 2022, 50000
+France, 1999, 20000
+France, 2001, 30000
+France, 2022, 20000
